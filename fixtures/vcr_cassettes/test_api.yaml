@@ -1,0 +1,37 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.9.1]
+    method: GET
+    uri: http://demo.ckan.org/api/3/action/group_list?id=data-explorer
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA21U227bMAz9lSHPU9PLw4ACwz5kGApaYm01kqjo4tQb9u+jqMR2ixUpzJvIw0NK
+        fw4Tunh4/nKYSonPx6NBT3f6BOGO0niEaI9PR9DFUji2yJc80eVHAI/fx0Q1vjiby+Hrl0OuWmPO
+        nKmkimxImKsrrP88AP+1mPZNZxzPmNr/dBajI/lk0z4DZFQOFkyiORrHq0jBKCkpjlVTj03XU1l9
+        epazBgxlhblAYYhWs2JIdP4YVBlIRai9uoECCt+jo9TLNRrWjMarwonUxSajBnAMBB1h5qoMqcaI
+        DYMhDzZsknrYycaLUr1fti5QUyBvtbLBWA2FUm5RV7MkxQnBlUlhmMUVZpsoeAxCekcMmlvxkGyx
+        XnjemQsmHkRJkuyVyKi85IJeCr2majfeRHNEcfOJJgSP0syIzOA7+OhQgkai0WEPaNuAakg23PfY
+        ZhDeGvBGE2lITgCKpgw01Bo/2FCOYJtVIpPsKNvBq+e4x0VdKDlZlI8WgdBNZcLPUeshZ22USQ69
+        prOzEOMhwHXP/LDNx9tTh7M3FVj3wtP0cXJ+EZ/0fxv0VRFHhvBGuZdse1Bj44YjY6I31G2bmLRm
+        CxNuMs0kwUIFRUy80hRkAlRL2jt/9xTCRwRtX3m7NHlfgy1LSxwnvmEirLcsUqxOUoqdsh1AnWVQ
+        Mdm5jzPyrR5AmuliGyYJhvNjQ0eCm5cNeaaTShg5Ea+0VE2Uc79Da1eZ99rV91Yyy0Z15KIPbUhb
+        pC0Yzdumu/o5V9wdrgH6i7ScrJd0TVBZMXPhSnQzFxD0BcFLW63m/f03cbEoFMqyPN1MarxJKxYJ
+        +I+mHh53x+QqDIvKmopg246pwBNa89qwiupU+QGTgpPNin+3jRJbxtKdhYkS6mcbNL8LMtwLhHGj
+        5AL8DKiBByNHdqo0ydfDRB5cPvz6+w8gKJIVEAYAAA==
+    headers:
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json;charset=utf-8]
+      Date: ['Mon, 25 Jan 2016 09:33:15 GMT']
+      Pragma: [no-cache]
+      Server: [nginx/1.1.19]
+      Vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+version: 1
