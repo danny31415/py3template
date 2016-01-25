@@ -6,7 +6,7 @@ machine:
     python:
         version: 3.4.3
     environment:
-        PYTEST_ADDOPTS: --cov=py3template --cov-report html --cov-report term
+        PYTEST_ADDOPTS: --cov=py3template --cov-report html --cov-report term --junitxml=$CIRCLE_TEST_REPORTS/pytest/junit.xml
 
 test:
     override:
