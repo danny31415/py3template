@@ -1,6 +1,8 @@
 machine:
     python:
         version: 3.4.3
+    environment:
+        PYTEST_ADDOPTS: --cov=py3template --cov-report html --cov-report term
 
 test:
     override:
